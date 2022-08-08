@@ -1,0 +1,2 @@
+убунту является сборкой для новичков,поэтому права рута там отключены во избежание негативных последствий использования рут прав.
+ubuntu sborka dlia novichkov, poetomu prava root ubrany, chtoby izbezhat oshibok ispolzovaniya root prava
