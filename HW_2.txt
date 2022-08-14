@@ -1,0 +1,23 @@
+   ssh-keygen -b 4096
+   mkdir Module6
+   cd Module6/
+   mkdir mysshkey
+   ll /home/ubuntu/.ssh/
+   vi /home/ubuntu/.ssh/id_rsa.pub 
+   cp /home/ubuntu/.ssh/id_rsa.pub /opt/Belhard/Module6/
+   mv id_rsa.pub mysshkey/
+   cd mysshkey/
+   cd ..
+   mkdir alpha
+   mkdir beta
+   mkdir gamma
+   chmod 711 alpha/
+   chmod 722 beta/
+   chmod 744 gamma/
+   sudo useradd belhard
+   sudo passwd belhard
+   chown -R belhard alpha/
+   chown -R belhard alpha
+   chown belhard alpha
+   chown belhard gamma
+  
